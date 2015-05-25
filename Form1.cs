@@ -16,5 +16,11 @@ namespace proj
         {
             InitializeComponent();
         }
+
+        private void pary_Click(object sender, EventArgs e)
+        {
+            Form2 okno = new Form2();
+            okno.Show();
+        }
     }
 }
